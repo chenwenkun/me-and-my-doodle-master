@@ -1,0 +1,75 @@
+/* 容器样式 */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+/* 标题样式 */
+.title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20rpx;
+}
+
+/* 输入区域样式 */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+
+/* 输入框样式 */
+.input {
+  height: 80rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #cccccc;
+  margin: 10rpx 0;
+  padding: 0 10rpx;
+}
+
+/* 提交按钮样式 */
+.submit-btn {
+  height: 80rpx;
+  background-color: #1aad19;
+  color: white;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+}
+
+/* 留言板样式 */
+.message-board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10rpx;
+  border: 1rpx solid #cccccc;
+  border-radius: 10rpx;
+}
+
+/* 单条留言样式 */
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+
+.message:last-child {
+  border-bottom: none;
+}
+.delete-btn {
+  color: red;
+}
+
+
+
+
+
+

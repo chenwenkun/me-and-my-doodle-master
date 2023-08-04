@@ -1,0 +1,6 @@
+/* miniprogram/pages/index/loopPic/loopPic.wxss */
+.descript{
+  text-indent: 2em;
+  padding:1em;
+  font-size: small;
+}
